@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Lucky Birthday</title>
+</head>
+<body>
+    <div class="container">
+        <div id="image">
+            <img src="./assets/cake.png" alt="cake-image">
+            <!-- <h1>🤔</h1> -->
+        </div>
+        <h1>Is your Birthday lucky?</h1>
+        <div id="birthdate">
+            <label for="dob">Enter your Date of Birth</label>
+            <input type="date" name="dob" id="dob">
+        </div>
+        <div id="lucky">
+            <label for="lucky_no">Enter your lucky number</label>
+            <input type="number" name="lucky_no" id="lucky_no">
+        </div>
+        <div class="output">
+            <p id="outputText"></p>
+            <input type="button" value="Check" id="checkBtn">
+        </div>
+    </div>
+    <h3>We are not storing any of your data</h3>
+    <script src="./index.js"></script>
+</body>
+</html>
