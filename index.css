@@ -16,6 +16,7 @@ body{
     font-family: var(--font);
     overflow-y: hidden;
 }
+
 .container{
     flex-direction: column;
     background-color: var(--accent);
@@ -99,7 +100,23 @@ h3{
 #outputText{
     color: #ff7700;
 }
-
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.socials > #foot-heading{
+    margin-bottom: 10px;
+}
+.socials ul{
+    display: flex;
+    gap: 2rem;
+}
+.socials ul li{
+    list-style: none;
+}
 @media only screen and (min-width : 1200) {
     .container{
         min-width: 50%;
