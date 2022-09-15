@@ -5,13 +5,13 @@ This app takes user's DOB and his/her Lucky Number as the input and give the out
 ![Screenshot](screenshot.PNG)
 
 
-# Getting Started
+## Getting Started
 
 you can head over to the link below to see it in action. 🚀
 [Check out app](https://luckybirthday0.netlify.app/)
 
 
-#  Built With
+##  Built With
 
 <p  align="left">
 
